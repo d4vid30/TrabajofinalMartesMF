@@ -48,32 +48,21 @@ print("Ejemplo con listas y estructuras de control en Python")
 # Lista con diferentes tipos de datos
 datos = [10, False, "Python", 4.5, [1, 2], 2+3j]
 print("Lista original:", datos)
-
-
 nueva = [3, 6, 9]
-
-
 combinada = datos + nueva
 print("Lista combinada:", combinada)
-
 nueva.append(12)
 nueva.insert(1, -5)
 print("Lista modificada:", nueva)
-
-
 repetidos = nueva.count(6)
 print("El número 6 aparece:", repetidos, "veces")
-
 
 for i in range(len(nueva)):
     nueva[i] *= 2
 
 print("Lista multiplicada por 2:", nueva)
-
-
 for item in ["inicio", 99, [5, 5], True, None]:
     print("Elemento:", item)
-
 
 print("Valores aleatorios:")
 j = 0
